@@ -8,12 +8,11 @@ Aurelie Crawford, Craig McCallum, Damir Gulamov
 
 
 ## Table of Contents
-[Getting Started](#getting_started)
-[Installation](#installation)
+1. [Getting Started](#getting_started)
+2. [Installation](#installation)
 
 
 
-<a name="getting_started"/>
 ### Getting Started
 #### Raspberry Pi Setup
 
@@ -22,7 +21,6 @@ Note: See the [electronics section](electronics)
 
 
 
-<a name="installation"/>
 ### Installation
 #### Data Acquisition, Data Analysis and GUI
 Note: See the [data acquisition/processing and GUI section](data_acquisition-processing_and_gui)
