@@ -4,7 +4,9 @@ This real-time local weather station project utilises a Raspberry Pi 3, off-the-
 
 Contributers:
 > Aurelie Crawford
+
 > Craig McCallum
+
 > Damir Gulamov
 
 
@@ -12,11 +14,10 @@ Contributers:
 ## Table of Contents
 1. [Getting Started](#start)
    1. [Raspberry Pi Setup](#raspi)
-   2. hello
-   * [Electronics](#electro)
+   2. [Electronics](#electro)
 2. [Installation](#install)
-	2.1 [Data Acquisition, Data Analysis and GUI](#data)
-	2.2 [Wep App](#web)
+   1. [Data Acquisition, Data Analysis and GUI](#data)
+   2. [Wep App](#web)
 
 
 
