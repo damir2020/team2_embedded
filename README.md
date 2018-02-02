@@ -24,14 +24,14 @@ Contributers:
 
 
 ### Electronics <a name="electro"></a>
-Note: See the [electronics section](01_electronics)
+Note: See the [electronics folder](01_electronics)
 
 
 
 ## Installation <a name="install"></a>
 ### Data Acquisition, Data Analysis and GUI <a name="data"></a>
-Note: See the [data acquisition/processing and GUI section](02_data_processing_and_gui)
+Note: See the [data acquisition/processing and GUI folder](02_data_processing_and_gui)
 
 
 ### Web App <a name="web"></a>
-Note: See the [web app section](03_web_app)
+Note: See the [web app folder](03_web_app)
