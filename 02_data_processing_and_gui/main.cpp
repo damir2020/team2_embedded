@@ -1,12 +1,13 @@
 #include <iostream>
+#include <string>
+#include <vector>
 //#include <linux/i2c-dev.h>
+#include "cpp_threads.h"
 
-using std::cout;
-using std::endl;
 
 int main(){
+    CppThreads getData();
+    CppThreads processData();
 
- cout << "hello" << endl;
-
- return 0;
+    return 0;
 }
