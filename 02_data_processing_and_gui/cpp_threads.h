@@ -2,16 +2,14 @@
 #define CPP_THREADS_H
 
 class CppThreads{
-    protected:
-    private:
-        pthread_t id = 0;
-        static void* exec(void* thr);
     public:
         CppThreads();
-        virtual ~CppThreads();
-        void create();
-        void join();
-        void run();
+        virtual ~CppThreads(){};
+        // void Create();
+        // void Join();
+        void Run();
+    private:
+        // static void* exec(void* thr);
 };
 
 #endif // CPP_THREADS_H

@@ -1,19 +1,35 @@
+#include <iostream>
 #include <pthread.h>
 #include "cpp_threads.h"
 
-void CppThreads::CppThreads(){}
+using namespace std;
 
-void CppThreads::Create(){
-    if (pthread_create(&id, 0, &CppThread::exec, this) != 0) {
-        throw "Cannot create thread";
-    }
+CppThreads::CppThreads(){
+    static int num = 0;
+    int id = ++num;
 }
 
-void CppThreads::Join(){
-    pthread_join(id, NULL);
-}
 
-static void* exec(void* thr) {
-    reinterpret_cast<CppThread *> (thr)->run();
-    return 0;
+// void CppThreads::Create(){
+//     if (pthread_create(&id, 0, &CppThread::Exec, this) != 0){
+//         throw "Cannot create thread";
+//     }
+// }
+
+
+// static void* CppThreads::Exec(void* thr) {
+//     reinterpret_cast<CppThread *> (thr)->Run();
+//     return 0;
+// }
+
+// void CppThreads::Join(){
+//     pthread_join(id, NULL);
+// }
+
+void CppThreads::Run(){
+ if (id == 0){
+     cout << "hello" << endl;
+ } else if (id == 1){
+     cout << "goodbye" << endl;
+ }
 }
