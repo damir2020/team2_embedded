@@ -4,7 +4,7 @@ SHELL = /bin/bash
 .SUFFIXES: .c .o
 
 CXX = g++ -std=c++11
-CXXFLAGS = -Wall -g
+CXXFLAGS = -Wall -g -pthread
 
 output: main.o cpp_threads.o
 	$(CXX) $(CXXFLAGS) main.o cpp_threads.o -o output

@@ -5,11 +5,13 @@ class CppThreads{
     public:
         CppThreads();
         virtual ~CppThreads(){};
-        // void Create();
-        // void Join();
+        void Create();
+        static void* Exec(void* arg);
         void Run();
+        // void* Join();
     private:
-        // static void* exec(void* thr);
+        static int num;
+        pthread_t id;
 };
 
 #endif // CPP_THREADS_H

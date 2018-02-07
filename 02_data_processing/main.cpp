@@ -7,9 +7,10 @@ using namespace std;
 int main(){
     CppThreads getData;
     CppThreads processData;
+    CppThreads broadcastData;
+    CppThreads updateGui;
 
-    getData.Run();
-    processData.Run();
+    getData.Create();
 
     return 0;
 }
